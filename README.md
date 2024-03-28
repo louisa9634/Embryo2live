@@ -11,8 +11,7 @@
 1.  Please refer to https://github.com/qqwweee/keras-yolo3 to deploy the YOLO-V3 model
 2.  Public silver training set and gold test set: https://doi.org/10.6084/m9.figshare.20123153.v3 
 3.  Pretrained weights for embryo detection, cilinical pregancy prediction and live birth prediction: https://doi.org/10.6084/m9.figshare.25479469.v1
-* Load model:
-*   model=tf.keras.models.load_model('model weights',compile=False)
+``` model=tf.keras.models.load_model('model weights',compile=False) ```
 
 
 ## Content: 
@@ -21,11 +20,12 @@
 2.   input the Detection_results.csv file to ([crop_yolo_image.py](/preprocess/crop_yolo_image.py)) to crop your embryo. 
  
 * Folder [grading](grading):
+*   public dataset can be downloaded via https://doi.org/10.6084/m9.figshare.20123153.v3;
 1.  training the expansion of degree ([traing1.ipynb](/grading/traing1.ipynb));
 2.  inner cell mass ([traing2.ipynb](/grading/traing2.ipynb))
 3.  trophectoderm ([traing3.ipynb](/grading/traing3.ipynb))
 4.  the prediction results ([pred.csv](/grading/pred.csv));
-5.  public dataset can be downloaded via https://doi.org/10.6084/m9.figshare.20123153.v3;
+
 
 * Folder [fresh](fresh):
 1.  training clinical pregnancy prediction model for fresh embryo samples ([trainfrepreg.ipynb](/fresh/trainfrepreg.ipynb));
