@@ -14,10 +14,9 @@ Pretrained weights for embryo detection, cilinical pregancy prediction and live 
 '''
 model=tf.keras.models.load_model('model weights',compile=False)
 '''
+
 ## Content: 
-* Folder [preprocess](preprocess):
-*   ([Detector.py](/preprocess/Detector.py)) to detect embryo from noisy background and our pretrained weights can be accessed via  https://doi.org/10.6084/m9.figshare.20123153.v3;
-*   input the Detection_results.csv file to ([crop_yolo_image.py](/preprocess/crop_yolo_image.py)) to crop your embryo. 
+* Folder [preprocess](preprocess):([Detector.py](/preprocess/Detector.py)) to detect embryo from noisy background and our pretrained weights can be accessed via https://doi.org/10.6084/m9.figshare.20123153.v3; input the Detection_results.csv file to ([crop_yolo_image.py](/preprocess/crop_yolo_image.py)) to crop your embryo. 
  
 * Folder [grading](grading):
 *   contains training the expansion of degree ([traing1.ipynb](/grading/traing1.ipynb));
@@ -33,12 +32,11 @@ model=tf.keras.models.load_model('model weights',compile=False)
 
 
 * Folder [fropredict](fropredict):
-*   training clinical pregnancy prediction model for frozen embryo samples:
-*      random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg-rfgrade.ipynb](/fropredict/fro_preg-rfgrade.ipynb))
+1.   training clinical pregnancy prediction model for frozen embryo samples: random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg-rfgrade.ipynb](/fropredict/fro_preg-rfgrade.ipynb))
 *      embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb))
 *      embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb))
 *      embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb))
-*   training live birth prediction model for frozen embryo samples:
+2.  training live birth prediction model for frozen embryo samples:
 *      random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_LB-rfgrade.ipynb](/fropredict/fro_LB-rfgrade.ipynb))
 *      embryo2live (input post-warmed image):([fro_LB-img.ipynb](/fropredict/fro_LB-img.ipynb))
 *      embryo2live (input post-warmed image & post-warmed grade):([fro_LB-frograde.ipynb](/fropredict/fro_LB-frograde.ipynb))
@@ -47,8 +45,8 @@ model=tf.keras.models.load_model('model weights',compile=False)
 *      embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb))
 *      embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb))
 *      embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb))
-*   evaluate model performance: ([evaluate.ipynb](/fropredict/evaluate.ipynb))
-*   figures for frozen emrbyo prediction were produced via ([figure.ipynb](/fropredict/figure.ipynb))
+3.   evaluate model performance: ([evaluate.ipynb](/fropredict/evaluate.ipynb))
+4.   figures for frozen emrbyo prediction were produced via ([figure.ipynb](/fropredict/figure.ipynb))
   
 
 
