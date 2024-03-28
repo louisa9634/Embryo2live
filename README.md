@@ -42,14 +42,14 @@
 * Folder [fropredict](fropredict):
     *  training clinical pregnancy prediction model for frozen embryo samples:
          random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg-rfgrade.ipynb](/fropredict/fro_preg-rfgrade.ipynb));
-         embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb));
-         embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb));
-         embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb)).
+         Embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb));
+         Embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb));
+         Embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb)).
     *  training live birth prediction model for frozen embryo samples:
          random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_LB-rfgrade.ipynb](/fropredict/fro_LB-rfgrade.ipynb));
-         embryo2live (input post-warmed image):([fro_LB-img.ipynb](/fropredict/fro_LB-img.ipynb));
-         embryo2live (input post-warmed image & post-warmed grade):([fro_LB-frograde.ipynb](/fropredict/fro_LB-frograde.ipynb));
-         embryo2live (input post-warmed image & fresh grade): ([fro_LB-fregrade.ipynb](/fropredict/fro_LB-fregrade.ipynb)).
+         Embryo2live (input post-warmed image):([fro_LB-img.ipynb](/fropredict/fro_LB-img.ipynb));
+         Embryo2live (input post-warmed image & post-warmed grade):([fro_LB-frograde.ipynb](/fropredict/fro_LB-frograde.ipynb));
+         Embryo2live (input post-warmed image & fresh grade): ([fro_LB-fregrade.ipynb](/fropredict/fro_LB-fregrade.ipynb)).
    *   evaluate model performance: ([evaluate.ipynb](/fropredict/evaluate.ipynb))
    *   figures for frozen emrbyo prediction were produced via ([figure.ipynb](/fropredict/figure.ipynb))
   
