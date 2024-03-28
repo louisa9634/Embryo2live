@@ -12,7 +12,7 @@
 2.  Public silver training set and gold test set: https://doi.org/10.6084/m9.figshare.20123153.v3 
 3.  Pretrained weights for embryo detection, cilinical pregancy prediction and live birth prediction: https://doi.org/10.6084/m9.figshare.25479469.v1
    
-  ``` model=tf.keras.models.load_model('model weights',compile=False) ```
+        ``` model=tf.keras.models.load_model('model weights',compile=False) ```
 
 
 ## Content: 
@@ -36,19 +36,19 @@
 
 * Folder [fropredict](fropredict):
     *  training clinical pregnancy prediction model for frozen embryo samples:
-           random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg-rfgrade.ipynb](/fropredict/fro_preg-rfgrade.ipynb))
-           embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb))
-           embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb))
-           embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb))
+           *  random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg-rfgrade.ipynb](/fropredict/fro_preg-rfgrade.ipynb))
+           *  embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb))
+           *  embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb))
+           *  embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb))
     *  training live birth prediction model for frozen embryo samples:
-           random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_LB-rfgrade.ipynb](/fropredict/fro_LB-rfgrade.ipynb))
-           embryo2live (input post-warmed image):([fro_LB-img.ipynb](/fropredict/fro_LB-img.ipynb))
-           embryo2live (input post-warmed image & post-warmed grade):([fro_LB-frograde.ipynb](/fropredict/fro_LB-frograde.ipynb))
-           embryo2live (input post-warmed image & fresh grade):*   training clinical pregnancy prediction model for frozen embryo samples:
-           random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg_rfgrade.ipynb](/fropredict/fro_preg_rfgrade.ipynb))
-           embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb))
-           embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb))
-           embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb))
+           *  random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_LB-rfgrade.ipynb](/fropredict/fro_LB-rfgrade.ipynb))
+           *  embryo2live (input post-warmed image):([fro_LB-img.ipynb](/fropredict/fro_LB-img.ipynb))
+           *  embryo2live (input post-warmed image & post-warmed grade):([fro_LB-frograde.ipynb](/fropredict/fro_LB-frograde.ipynb))
+           *  embryo2live (input post-warmed image & fresh grade):*   training clinical pregnancy prediction model for frozen embryo samples:
+           *  random forest baseline models: fresh grade, frozen grade, fresh & frozen grades ([fro_preg_rfgrade.ipynb](/fropredict/fro_preg_rfgrade.ipynb))
+           *  embryo2live (input post-warmed image):([fro_preg-img.ipynb](/fropredict/fro_preg-img.ipynb))
+           *  embryo2live (input post-warmed image & post-warmed grade):([fro_preg-frograde.ipynb](/fropredict/fro_preg-frograde.ipynb))
+           *  embryo2live (input post-warmed image & fresh grade):([fro_preg-fregrade.ipynb](/fropredict/fro_preg-fregrade.ipynb))
    *   evaluate model performance: ([evaluate.ipynb](/fropredict/evaluate.ipynb))
    *   figures for frozen emrbyo prediction were produced via ([figure.ipynb](/fropredict/figure.ipynb))
   
