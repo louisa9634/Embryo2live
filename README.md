@@ -11,8 +11,7 @@
 1.  Please refer to https://github.com/qqwweee/keras-yolo3 to deploy the YOLO-V3 model
 2.  Public silver training set and gold test set: https://doi.org/10.6084/m9.figshare.20123153.v3 
 3.  Pretrained weights for embryo detection, cilinical pregancy prediction and live birth prediction: https://doi.org/10.6084/m9.figshare.25479469.v1
-
-* model=tf.keras.models.load_model('model weights',compile=False)
+    *   model=tf.keras.models.load_model('model weights',compile=False)
 
 
 ## Content: 
