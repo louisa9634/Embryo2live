@@ -23,6 +23,10 @@
 
 * Folder [preprocess](preprocess):
     *  ([Detector.py](/preprocess/Detector.py)) to detect embryo from noisy background and our pretrained weights can be accessed via https://doi.org/10.6084/m9.figshare.20123153.v3;
+    *  under /preprocess folder
+    ```python Detector.py --input_path "YOUR_PATH/raw_image/matchall" --output "YOUR_PATH/raw_image/matchall_preprocess/" --box_file "YOUR_PATH/raw_image/matchall_detect.csv
+   ```
+```python crop_yolo_image.py --save_path "YOUR_PATH/totalblindtest/testset/" --image_path "YOUR_PATH/raw_image/matchall/" --crop_csv_path "YOUR_PATH/raw_image/matchall_detect.csv"```
     *   input the Detection_results.csv file to ([crop_yolo_image.py](/preprocess/crop_yolo_image.py)) to crop your embryo. 
  
 * Folder [grading](grading):
